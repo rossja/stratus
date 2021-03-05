@@ -30,4 +30,7 @@ echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ ${CLI_REP
 # install the software
 apt-get update && apt-get install -y azure-cli
 
+# upgrade to get latest version
+az upgrade -y
+
 echo -e "\n\nAzure CLI Installation Complete!\n\n"
